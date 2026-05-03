@@ -1,0 +1,45 @@
+{
+  "title": "APAC Compliance MCP Input",
+  "description": "Pick a tool and country for your APAC outreach.",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "tool": {
+      "title": "Tool",
+      "type": "string",
+      "description": "Which APAC tool to call",
+      "enum": [
+        "get_country_brief",
+        "get_outreach_template",
+        "get_followup_cadence",
+        "get_etiquette_guide",
+        "get_stakeholder_map",
+        "get_compliance_check",
+        "get_full_apac_pack"
+      ],
+      "editor": "select"
+    },
+    "country": {
+      "title": "APAC Country",
+      "type": "string",
+      "description": "Country in Asia-Pacific",
+      "enum": ["japan", "singapore", "korea", "india", "australia", "hongkong", "taiwan", "indonesia"],
+      "editor": "select"
+    },
+    "channel": {
+      "title": "Outreach Channel",
+      "type": "string",
+      "description": "Channel for the template",
+      "enum": ["cold_email", "linkedin_dm", "linkedin_inmail", "follow_up_day_3", "follow_up_day_7", "breakup"],
+      "editor": "select"
+    },
+    "company_stage": {
+      "title": "Company Stage",
+      "type": "string",
+      "description": "Buyer org size",
+      "enum": ["early_startup", "growth_stage", "mid_market", "enterprise"],
+      "editor": "select"
+    }
+  },
+  "required": ["tool"]
+}

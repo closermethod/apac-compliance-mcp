@@ -1,0 +1,18 @@
+{
+  "actorSpecification": 1,
+  "name": "apac-compliance-mcp",
+  "title": "APAC Compliance MCP — AI Agent Outbound for Asia-Pacific",
+  "description": "MCP server for AI agents selling into APAC. 7 tools: country-specific buyer psychology (Japan/Singapore/Korea/India/Australia/HongKong/Taiwan/Indonesia), formal etiquette protocols, channel-specific outreach templates, follow-up cadences, multi-stakeholder navigation, gift-and-relationship norms. By Elisabeth Hitz.",
+  "version": "1.0.0",
+  "buildTag": "latest",
+  "dockerfile": "./Dockerfile",
+  "dockerContextDir": ".",
+  "storages": { "dataset": { "actorInputSchemaId": "INPUT_SCHEMA" } },
+  "input": "./input_schema.json",
+  "categories": ["AI", "AGENTS", "MCP_SERVERS", "BUSINESS"],
+  "seoTitle": "APAC Compliance MCP for AI Agents | Asia-Pacific Outbound",
+  "seoDescription": "MCP server for AI SDRs selling into Asia-Pacific. Japan, Singapore, Korea, India, Australia, Hong Kong, Taiwan, Indonesia. Country-specific etiquette + outreach.",
+  "isDeprecated": false,
+  "isAnonymouslyRunnable": true,
+  "isPublic": true
+}

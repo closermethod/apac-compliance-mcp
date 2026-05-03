@@ -1,0 +1,42 @@
+{
+  "name": "apac-compliance-mcp",
+  "version": "1.0.0",
+  "description": "APAC Compliance MCP for AI agents \u2014 Japan, Singapore, Korea, India, Australia, Hong Kong, Taiwan, Indonesia. Country-specific buyer psychology, outreach templates, business etiquette, follow-up cadences.",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "npx ts-node src/main.ts"
+  },
+  "keywords": [
+    "mcp",
+    "apac",
+    "asia",
+    "japan",
+    "singapore",
+    "korea",
+    "india",
+    "australia",
+    "hongkong",
+    "taiwan",
+    "indonesia",
+    "ai-agent",
+    "sales",
+    "b2b",
+    "enterprise-sales"
+  ],
+  "author": "Elisabeth Hitz <elibierhitz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
